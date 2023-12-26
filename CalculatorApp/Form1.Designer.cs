@@ -237,6 +237,7 @@
             label1.Size = new Size(192, 43);
             label1.TabIndex = 16;
             label1.Text = "More Modes";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
