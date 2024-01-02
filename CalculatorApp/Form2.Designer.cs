@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            pictureBox1 = new PictureBox();
             button1 = new Button();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -45,15 +45,6 @@
             label1.TabIndex = 0;
             label1.Text = "This is your daily dose of images, enjoy!";
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(12, 73);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(945, 507);
-            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
-            // 
             // button1
             // 
             button1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
@@ -66,6 +57,15 @@
             button1.Text = "Show";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(12, 73);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(945, 507);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
             // 
             // Form2
             // 
@@ -82,7 +82,7 @@
             Name = "Form2";
             ShowIcon = false;
             ShowInTaskbar = false;
-            Text = "Gerald Presentation Tool";
+            Text = "I don't know what to title this window";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -91,7 +91,7 @@
         #endregion
 
         private Label label1;
-        private PictureBox pictureBox1;
         private Button button1;
+        private PictureBox pictureBox1;
     }
 }

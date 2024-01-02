@@ -115,13 +115,13 @@ namespace CalculatorApp
         // Easter Egg UWU
         private void label3_Click(object sender, EventArgs e)
         {
-            label4.Text = "Gerald Kase";
+            label4.Text = "Marcus the Gopher!";
         }
 
         // LMAO
         private void label4_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Properties.Resources.GeraldoBTD69;
+            pictureBox1.Image = Properties.Resources.MARCUSTHEGOPHER;
         }
 
         // AC Button

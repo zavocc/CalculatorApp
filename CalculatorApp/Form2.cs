@@ -29,7 +29,7 @@ namespace CalculatorApp
                 button1.Text = "Change Image";
             }
 
-            string resourceName = "_" + random.Next(1, 7);
+            string resourceName = "_" + random.Next(1, 6);
             pictureBox1.Image = (Bitmap)resourceManager.GetObject(resourceName);
 
             // Obtain Image size so we can resize the form to fit the image
@@ -37,7 +37,7 @@ namespace CalculatorApp
             var imageSizeHeight = pictureBox1.Image.Size.Height;
 
             // Resize the form to fit the image
-            this.Size = new Size(imageSizeWidth + 50, imageSizeHeight + 100);
+            this.Size = new Size(imageSizeWidth + 50, imageSizeHeight + 125);
 
         }
     }
